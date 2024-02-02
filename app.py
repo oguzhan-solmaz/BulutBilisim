@@ -38,4 +38,4 @@ api.add_resource(Name, '/playername')
 api.add_resource(Player, '/Player')
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0",debug=True)
+    app.run(host="0.0.0.0")
